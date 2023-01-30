@@ -155,7 +155,7 @@
 
   /**
    * Gallery Slider
-   
+   */
   new Swiper('.gallery-slider', {
     speed: 400,
     loop: true,
@@ -189,14 +189,14 @@
       }
     }
   });
-  */
+  
   /**
    * Initiate gallery lightbox 
-   
+   */
   const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
   });
-  */
+  
   /**
    * Testimonials slider
    */
