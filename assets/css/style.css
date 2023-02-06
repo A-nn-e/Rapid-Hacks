@@ -620,6 +620,7 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+/*
 .gallery {
   overflow: hidden;
 }
@@ -663,6 +664,30 @@ section {
     margin-top: 10px;
     border-radius: 25px;
   }
+}
+*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column3 {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  
+  
+}
+
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 5px;
+  margin-left: 250px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /*--------------------------------------------------------------
